@@ -15,3 +15,5 @@ The commit history of this repository reflects what a student might do as she wo
   * The interface between RStudio and `make`
   * How to use `make` from the shell
   * How Git facilitates the process of building a pipeline
+  
+  The origina make activity can be found (here)[http://stat545-ubc.github.io/automation04_make-activity.html]
