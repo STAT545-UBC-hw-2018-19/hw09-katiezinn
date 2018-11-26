@@ -17,7 +17,7 @@ Katie Z
 9) Running make clean should remove all output. :heavy_check_mark:
 10) There shouldn’t be any useless output, such as an Rplots.pdf file. :heavy_check_mark:
 
-*The files that I added to or changed in this repository include Makefile, README.md, report2.rmd, first_letter.r, first_letter.tsv, first_letter.png, report2.html, and report2.md*
+*The files that I added to or changed in this repository include Makefile, README.md, report2.rmd, last_letter.r, last_letter.tsv, last_letter.png, report2.html, and report2.md*
 
 **I would like to note** that this respository was initially seeded with [this](https://github.com/STAT545-UBC/make-activity) activity. I added to it to meet requirements for the [STAT 547](http://stat545.com/Classroom/assignments/hw09/hw09.html) course at UBC. The original activity for the original file can be found [here](http://stat545-ubc.github.io/automation04_make-activity.html).
 
