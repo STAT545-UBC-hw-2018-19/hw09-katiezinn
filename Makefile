@@ -2,7 +2,7 @@
 all: report2.html
 
 clean:
-	rm -f words.txt histogram.tsv histogram.png report.md report.html first_letter.tsv first_letter.png report2.md report2.html
+	rm -f words.txt histogram.tsv histogram.png report.md report.html last_letter.tsv last_letter.png report2.md report2.html
 
 report.html: report.rmd histogram.tsv histogram.png
 	Rscript -e 'rmarkdown::render("$<")'
@@ -14,17 +14,17 @@ histogram.png: histogram.tsv
 histogram.tsv: histogram.r words.txt
 	Rscript $<
 	
-#adding first_letter.png, it's reliant on first_letter.tsv
-first_letter.png: first_letter.tsv
-	Rscript -e 'library(ggplot2); qplot(first_letter, Freq, data=read.delim("$<")); ggsave("$@")'
+#adding last_letter.png, it's reliant on last_letter.tsv
+last_letter.png: last_letter.tsv
+	Rscript -e 'library(ggplot2); qplot(last_letter, Freq, data=read.delim("$<")); ggsave("$@")'
 	rm Rplots.pdf #removing Rplots
 
-#making first_letter.tsv with my r document
-first_letter.tsv: first_letter.r words.txt
+#making last_letter.tsv with my r document
+last_letter.tsv: last_letter.r words.txt
 	Rscript $<
 
 #creating an html document through markdown -- capturing dependencies
-report2.html: report2.rmd first_letter.tsv first_letter.png
+report2.html: report2.rmd last_letter.tsv last_letter.png
 	Rscript -e 'rmarkdown::render("$<")'
 	
 words.txt: /usr/share/dict/words

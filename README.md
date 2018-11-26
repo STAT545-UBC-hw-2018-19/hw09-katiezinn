@@ -6,7 +6,7 @@ Katie Z
 
 ## Welcome to my 9th homework assignment. For this assignment I completed the following parts: 
 
-1) Add one R script. ([first_letter.r](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/first_letter.r)) :heavy_check_mark:
+1) Add one R script. ([last_letter.r](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/first_letter.r)) :heavy_check_mark:
 2) Add one Rmd script. ([report2.rmd](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/report2.Rmd)) :heavy_check_mark:
 3) Add them to the make pipeline by modifying the Makefile.([Makefile](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/Makefile)) :heavy_check_mark:
 4) Each file should have some output. (.html, .png, .tsv) :heavy_check_mark:
