@@ -4,7 +4,11 @@ Katie Z
 
 # Hello! 
 
-## Welcome to my 9th homework assignment. For this assignment I completed the following parts: 
+## Welcome to my 9th homework assignment.
+
+In this assignment, I added to Shaun Jackman and Jenny Bryan's **Automating Data-analysis Pipelines** activity. The first thing I did was add an r script called [last_letter.r](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/last_letter.r). This r script contains code that counts the frequency of each letter used as the last letter in a word. I then updated my [Makefile](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/Makefile) to create a .tsv table from my r script. From that file, I further edited my make file to produce a .png file of the .tsv table. Lastly, I created a file called [report2.rmd](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/report2.Rmd) which displays the .png file, and was further rendered through the makefile into an [html file](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/report2.html) and [.md file](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/report2.md).
+
+## For this assignment I completed the following parts: 
 
 1) Add one R script. ([last_letter.r](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/last_letter.r)) :heavy_check_mark:
 2) Add one Rmd script. ([report2.rmd](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/report2.Rmd)) :heavy_check_mark:
