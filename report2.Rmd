@@ -1,5 +1,5 @@
 ---
-title: "First letter occurrence"
+title: "Last letter occurrence"
 author: "Katie Z"
 date: "26 November, 2018"
 output:

@@ -1,4 +1,4 @@
-#creating all requirements for report and report 2
+#creating all requirements for report 2.html
 all: report2.html
 
 clean:
