@@ -1,9 +1,10 @@
-make-activity
+STAT 547 - HW 09
+Katie Z
 =============
 
-Hello! 
+# Hello! 
 
-Welcome to my 9th homework assignment. For this assignment I completed the following parts: 
+## Welcome to my 9th homework assignment. For this assignment I completed the following parts: 
 
 1) Add one R script. ([first_letter.r](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/first_letter.r)) :heavy_check_mark:
 2) Add one Rmd script. ([report2.rmd](https://github.com/STAT545-UBC-students/hw09-katiezinn/blob/master/report2.Rmd)) :heavy_check_mark:
